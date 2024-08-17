@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health AI Chatbot</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <h1>Health AI Chatbot</h1>
+    <form method="POST">
+        <input type="text" n0ame="user_input" placeholder="พิมพ์คำถามที่นี่...">
+        <button type="submit">ส่งข้อความ</button>
+    </form>
+
+    <div id="ai-response">
+        <h3>AI Response:</h3>
+        <p>{{ ai_response }}</p>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
